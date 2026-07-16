@@ -1,0 +1,5 @@
+alias la='eza -lhaG --no-user --sort type'
+alias ls='la'
+alias cla='clear && la'
+alias nvim='nvim -p'
+alias icat='kitten icat'
