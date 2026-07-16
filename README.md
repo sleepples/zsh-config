@@ -1,1 +1,3 @@
-## MAKE SURE TO MOVE .zshrc TO HOME DIR
+## EVERYTHING GOES IN THE ```~/.zsh/``` DIR EXCEPT ```.zshrc```
+## .zshrc GOES IN THE ```$HOME``` DIR
+
