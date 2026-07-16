@@ -1,0 +1,1 @@
+## MAKE SURE TO MOVE .zshrc TO HOME DIR
