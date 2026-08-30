@@ -10,6 +10,10 @@ unsetopt beep
 PROMPT_EOL_MARK=""
 PS1='%F{blue}%B%~%b%f '
 
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+  PS1='%F{green}(SSH)%f '$PS1
+fi
+
 # auto sugest
 if [ -f ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
 	source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
