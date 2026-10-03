@@ -27,7 +27,7 @@ vi-append-x-selection () {
   # RBUFFER is all characters to the right
   # this sets the RBUFFER to the first character of RBUFFER then
   # appends the clipboard then appends the rest of the RBUFFER
-  RBUFFER=$RBUFFER[1]$(xclip -o -sel c </dev/null)$RBUFFER[2,-1]
+  RBUFFER=$RBUFFER[1]$(xclip -o -sel p </dev/null)$RBUFFER[2,-1]
 }
 zle -N vi-append-x-selection
 bindkey -a 'p' vi-append-x-selection
