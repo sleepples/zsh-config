@@ -27,6 +27,7 @@ mkcd ()
 	cd "$1"
 }
 
+. ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 . ~/.zsh/vim_keybinds.zsh
 . ~/.zsh/aliases.zsh
 . ~/.zsh/env.zsh

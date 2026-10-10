@@ -1,5 +1,5 @@
-alias ls='eza -lah --no-filesize --no-time --no-user --sort type'
-alias la='eza -lhaguU --follow-symlinks --sort type'
+alias ls='eza -lah --no-filesize --no-time --no-user --sort type --color=always'
+alias la='eza -lhaguU --follow-symlinks --sort type --color=always'
 alias cla='clear && la'
 alias nvim='nvim -p'
 alias icat='kitten icat'
